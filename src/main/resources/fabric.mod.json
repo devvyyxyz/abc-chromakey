@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "abc_chromakey",
+  "version": "1.0.0",
+  "name": "abc: chromakey",
+  "description": "Adds a set of chroma-key blocks perfect for video recording, green-screen effects, and clean compositing in Minecraft.",
+  "authors": [
+    "Devvyyxyz"
+  ],
+  "contact": {
+    "homepage": "https://devvyy.xyz",
+    "sources": ""
+  },
+  "license": "GNU General Public License version 3 (GPLv3)",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.devvyyxyz.abcchromakey.AbcChromakeyMod"
+    ],
+    "client": [
+      "net.devvyyxyz.abcchromakey.AbcChromakeyModClient"
+    ]
+  },
+  "mixins": [
+    "abc_chromakey.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

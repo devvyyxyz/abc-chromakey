@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "abc_chromakey:block/chromakeywhite",
+    "particle": "abc_chromakey:block/chromakeywhite"
+  },
+  "render_type": "solid"
+}

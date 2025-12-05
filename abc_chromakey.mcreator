@@ -1,0 +1,135 @@
+{
+  "mod_elements": [
+    {
+      "name": "ChromakeyWhite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chromakey_white",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devvyyxyz/abcchromakey/block/ChromakeyWhiteBlock.java",
+          "src/main/resources/assets/abc_chromakey/models/item/chromakey_white.json",
+          "src/main/resources/assets/abc_chromakey/items/chromakey_white.json",
+          "src/main/resources/data/abc_chromakey/loot_table/blocks/chromakey_white.json",
+          "src/main/resources/assets/abc_chromakey/blockstates/chromakey_white.json",
+          "src/main/resources/assets/abc_chromakey/models/block/chromakey_white.json"
+        ]
+      }
+    },
+    {
+      "name": "ChromakeyOrange",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chromakey_orange",
+      "metadata": {
+        "files": [
+          "src/main/java/net/devvyyxyz/abcchromakey/block/ChromakeyOrangeBlock.java",
+          "src/main/resources/data/abc_chromakey/loot_table/blocks/chromakey_orange.json",
+          "src/main/resources/assets/abc_chromakey/blockstates/chromakey_orange.json",
+          "src/main/resources/assets/abc_chromakey/models/item/chromakey_orange.json",
+          "src/main/resources/assets/abc_chromakey/items/chromakey_orange.json",
+          "src/main/resources/assets/abc_chromakey/models/block/chromakey_orange.json"
+        ]
+      }
+    },
+    {
+      "name": "ChromakeyMagenta",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chromakey_magenta",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/abc_chromakey/items/chromakey_magenta.json",
+          "src/main/java/net/devvyyxyz/abcchromakey/block/ChromakeyMagentaBlock.java",
+          "src/main/resources/data/abc_chromakey/loot_table/blocks/chromakey_magenta.json",
+          "src/main/resources/assets/abc_chromakey/models/item/chromakey_magenta.json",
+          "src/main/resources/assets/abc_chromakey/models/block/chromakey_magenta.json",
+          "src/main/resources/assets/abc_chromakey/blockstates/chromakey_magenta.json"
+        ]
+      }
+    },
+    {
+      "name": "ChromakeyLightBlue",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chromakey_light_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/abc_chromakey/items/chromakey_light_blue.json",
+          "src/main/java/net/devvyyxyz/abcchromakey/block/ChromakeyLightBlueBlock.java",
+          "src/main/resources/data/abc_chromakey/loot_table/blocks/chromakey_light_blue.json",
+          "src/main/resources/assets/abc_chromakey/models/item/chromakey_light_blue.json",
+          "src/main/resources/assets/abc_chromakey/models/block/chromakey_light_blue.json",
+          "src/main/resources/assets/abc_chromakey/blockstates/chromakey_light_blue.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.abc_chromakey.chromakey_white": "Chromakey White",
+      "item.abc_chromakey.chromakey_orange": "Chromakey White",
+      "item.abc_chromakey.chromakey_magenta": "Chromakey White",
+      "item.abc_chromakey.chromakey_light_blue": "Chromakey White"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/devvyyxyz/abcchromakey/init/AbcChromakeyModBlocksRenderers.java",
+      "src/main/java/net/devvyyxyz/abcchromakey/init/AbcChromakeyModBlocks.java",
+      "src/main/java/net/devvyyxyz/abcchromakey/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/net/devvyyxyz/abcchromakey/init/AbcChromakeyModItems.java",
+      "src/main/java/net/devvyyxyz/abcchromakey/mixin/ServerPlayerMixin.java",
+      "src/main/java/net/devvyyxyz/abcchromakey/mixin/CommandsMixin.java",
+      "src/main/java/net/devvyyxyz/abcchromakey/mixin/ExperienceOrbMixin.java",
+      "src/main/java/net/devvyyxyz/abcchromakey/event/ItemEvents.java",
+      "src/main/java/net/devvyyxyz/abcchromakey/AbcChromakeyMod.java",
+      "src/main/java/net/devvyyxyz/abcchromakey/mixin/LivingEntityMixin.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/devvyyxyz/abcchromakey/event/PlayerEvents.java",
+      "src/main/java/net/devvyyxyz/abcchromakey/event/MiscEvents.java",
+      "src/main/java/net/devvyyxyz/abcchromakey/event/LivingEntityEvents.java",
+      "src/main/java/net/devvyyxyz/abcchromakey/event/BlockEvents.java",
+      "src/main/java/net/devvyyxyz/abcchromakey/mixin/BlockItemMixin.java",
+      "src/main/java/net/devvyyxyz/abcchromakey/mixin/ItemStackMixin.java",
+      "src/main/java/net/devvyyxyz/abcchromakey/AbcChromakeyModClient.java",
+      "src/main/resources/META-INF/abc_chromakey.accesswidener",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/devvyyxyz/abcchromakey/mixin/BoneMealItemMixin.java",
+      "src/main/java/net/devvyyxyz/abcchromakey/init/AbcChromakeyModTabs.java",
+      "src/main/java/net/devvyyxyz/abcchromakey/mixin/PlayerMixin.java",
+      "src/main/resources/abc_chromakey.mixins.json"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "abc_chromakey",
+    "modName": "abc: chromakey",
+    "version": "1.0.0",
+    "description": "Adds a set of chroma-key blocks perfect for video recording, green-screen effects, and clean compositing in Minecraft.",
+    "author": "Devvyyxyz",
+    "websiteURL": "https://devvyy.xyz",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.21.8",
+    "credits": "Devvyyxyz",
+    "modElementsPackage": "net.devvyyxyz.abcchromakey"
+  },
+  "mcreatorVersion": 202500345720
+}
